@@ -1,0 +1,42 @@
+body{
+    background-color: pink;
+}
+
+#first{
+color :rgb(226, 56, 129);
+font-family: cursive;
+text-align: right;
+text-decoration: underline;
+font-style: italic;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+.headers{
+    text-align: center;
+}
+.next{
+    text-align: right;
+}
+.google{
+    text-align: center;
+    margin-top: 2%;
+}
+#monkey{
+    margin-top: 2%;
+    width: 150px;
+}
+#copyright{
+    text-align: center;
+    font-size: 11px;
+}
+#imgdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+

@@ -1,0 +1,74 @@
+body{
+    background-color: pink;
+}
+
+#first{
+color :rgb(226, 56, 129);
+font-family: cursive;
+text-align: right;
+text-decoration: underline;
+font-style: italic;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+.headers{
+    text-align: center;
+}
+.next{
+    text-align: right;
+}
+.google{
+    text-align: center;
+    margin-top: 2%;
+}
+#monkey{
+    margin-top: 2%;
+    width: 150px;
+}
+#copyright{
+    text-align: center;
+    font-size: 11px;
+}
+#imgdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+.f1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+   
+}
+.t1{
+    border-style: outset;
+    border-bottom-color: rgb(213, 43, 43);
+    border-right-color: rgb(201, 41, 41);
+    border-left-color: rgb(253, 182, 194);
+    border-top-color: rgb(253, 182, 194);
+    border-width: 10px;
+    width: 30%;
+    height: 70%;
+
+}
+td{
+    border-style: outset;
+    border-left-color: rgb(213, 43, 43);
+    border-top-color: rgb(201, 41, 41);
+    border-bottom-color: rgb(253, 182, 194);
+    border-right-color: rgb(253, 182, 194);
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 500px;
+    font-size: 20px;
+}
