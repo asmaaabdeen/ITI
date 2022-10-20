@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1666267172 source:c:\users\asmaa abdeen\desktop\iti\c programming\d05\employeesstruct\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+
