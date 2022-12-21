@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1669040026 source:c:\users\asmaa abdeen\desktop\iti\ds\day-1\menulinkedlist(c++)\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<string.h>
+

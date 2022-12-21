@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+<script src="Scripts/Cookie.js"></script>
+<script src="Scripts/usability.js"></script>
+    <style>
+        label
+        {
+font-weight: bold;
+        }
+        button{
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <label>Enter Your Name: </label>
+    <input type="text" id="name">
+    <br>
+    <br>
+    <br>
+    <br>
+    <label>Enter Your Age: </label>
+    <input type="number" id="age">
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <label>Select Your Gender: </label>
+    <br>
+    <br>
+
+    <input type="radio" value="male" name="gender">
+
+    <label for="male"><img src="Images/1.jpg" ></label>
+    <input type="radio" value="female" name="gender">
+    <label for="female"><img src="Images/2.jpg" ></label>
+    <br>
+    <br>
+    <br>
+    <br>
+    <label>Select Your Fav Color</label>
+    <select name="Color" id="Col">
+        <option value="Red">Red</option>
+        <option value="Green">Green</option>
+        <option value="Blue">Blue</option>
+        <option value="Pink">Pink</option>
+      </select>
+      <br>
+      <br>
+      <br>
+      <br>
+    <input id="register" type="button" value="Register" onclick="NewCookie()">
+    <input type="button" value="getcookie" onclick="retrievecookie()">
+    <input type="button" value="getAllcookies" onclick="showcookielist()">
+    <input type="button" value="Hascookie" onclick="chechcook()">
+    <input type="button" value="Delete Cookie" onclick="deletecook()">
+
+
+
+
+</body>
+</html>

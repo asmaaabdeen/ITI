@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            position: relative;
+        }
+
+        #img1 {
+            position: absolute;
+            top: 45%;
+            left: 455px;
+        }
+
+        #img2 {
+            position: absolute;
+            top: 45%;
+            left: 0;
+        }
+
+        #top {
+            position: absolute;
+            left: 45%;
+            top: 0;
+        }
+
+        p {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="border: 5px solid red;width: 500px;height: 500px;">
+        <img id="img1" src="images/icon1.gif">
+        <img id="img2" src="images/icon2.gif">
+        <img id="top" src="images/TOP.JPG">
+
+    </div>
+    <br>
+    <br>
+    <button id="goStop">Go</button>
+    <button id="reset">Reset</button>
+    <p id="Left1"></p>
+    <p id="Left2"></p>
+
+    <script src="Scripts/task4.js">
+    </script>
+</body>
+
+</html>

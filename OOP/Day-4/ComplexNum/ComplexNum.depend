@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1667247193 source:c:\users\asmaa abdeen\desktop\iti\oop\day-4\complexnum\main.cpp
+	<iostream>
+	<string.h>
+	<cstring>
+

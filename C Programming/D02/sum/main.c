@@ -3,10 +3,10 @@
 
 int main()
 {
-int x,sum;
+int x,sum=0;
 do{
     scanf("%d",&x);
     sum+=x;
-}while(sum<=100);
+}while(sum<100);
 printf("%d",sum);
 }

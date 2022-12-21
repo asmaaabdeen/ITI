@@ -3,8 +3,8 @@
 #include <windows.h>
 #include <conio.h>
 #include <string.h>
-#define NormalPen 0x0b
-#define HighlightPen 0xb0
+#define NormalPen 0x07
+#define HighlightPen 0x0b
 #define Enter 0x0d
 #define Esc  27
 

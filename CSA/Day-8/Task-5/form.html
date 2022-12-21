@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Hi</h2>
+
+<form method="get">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" ><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" ><br><br>
+  <input type="submit" value="Submit" id="subm">
+</form> 
+<script>
+    var myTimeout = new Event("timeout");
+    document.getElementById("subm").addEventListener("click",function(){
+      var cont=  confirm("do you want to continue");
+      if (cont==0){
+        event.preventDefault();
+      }
+      else
+        alert("your data has been submitted");
+    })
+    document.getElementById("subm").addEventListener("timeout",function(){
+        var x = document.getElementsByTagName("input")[0].value;
+        var y = document.getElementsByTagName("input")[1].value;
+
+        setTimeout(function(){
+            if (x==""&&y=="")
+            alert("please enter your data  and press submit");
+        },30000)
+    })
+    document.getElementById("subm").dispatchEvent(myTimeout);
+    
+</script>
+</body>
+</html>

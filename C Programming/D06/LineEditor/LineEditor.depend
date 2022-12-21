@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1666732589 source:c:\users\asmaa abdeen\desktop\iti\c programming\d06\lineeditor\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<string.h>
+

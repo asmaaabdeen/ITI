@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body {
+            background-color: rgb(20, 68, 95);
+        }
+
+        h1 {
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(17, 24, 26);
+            text-align: center;
+            box-shadow: 5px 5px 10px 10px black;
+        }
+
+        .cards {
+            width: 30%;
+            margin: auto;
+            margin-right: 39%;
+        }
+
+        .labels {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .dots {
+            display: flex;
+            width: 90%;
+            margin: auto;
+            justify-content: space-between;
+            margin-left: 18%;
+        }
+
+        img {
+            width: 170px;
+            height: 150px;
+            padding: 10px;
+        }
+
+        .bottom-row {
+            margin-top: 50px;
+        }
+
+        .myArea {
+margin-left: 20%;
+            text-align: center;
+        }
+
+        .myArea h2 {
+            color: rgb(17, 24, 26);
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+     <h1>Generate Get Well Soon Card</h1>
+    <div class="cards">
+
+        <div class="top-row">
+            <div class="labels">
+                <label for="card1">
+                    <img src="images/gws.jpg" alt="">
+                </label>
+                <label for="card2">
+                    <img src="images/gws2.jpg" alt="">
+                </label>
+                <label for="card3">
+                    <img src="images/gws3.jpg" alt="">
+                </label>
+            </div>
+            <div class="dots">
+                <input type="radio" name="card" id="card1" checked value="images/gws.jpg">
+                <input type="radio" name="card" id="card2" value="images/gws2.jpg">
+                <input type="radio" name="card" id="card3" value="images/gws3.jpg">
+            </div>
+
+        </div>
+
+        <div class="bottom-row">
+            <div class="labels">
+                <label for="card4">
+                    <img src="images/gwsf2.jpg" alt="">
+                </label>
+                <label for="card5">
+                    <img src="images/gwsf2.png" alt="">
+                </label>
+                <label for="card6">
+                    <img src="images/gwsf3.jpg" alt="">
+                </label>
+            </div>
+            <div class="dots">
+                <input type="radio" name="card" id="card4" value="images/gwsf2.jpg">
+                <input type="radio" name="card" id="card5" value="images/gwsf2.png">
+                <input type="radio" name="card" id="card6" value="images/gwsf3.jpg">
+            </div>
+
+        </div>
+
+        <div class="myArea">
+            <h2>Personal Message</h2>
+            <textarea id="tArea" cols="40" rows="8"></textarea>
+            <br>
+            <input type="button" name="" id="genBtn" value="Generate">
+        </div>
+
+    </div>
+
+
+
+    <script src="Scripts/MyCard.js"></script>
+</body>
+</html>

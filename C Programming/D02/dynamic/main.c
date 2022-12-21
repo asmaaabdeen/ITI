@@ -12,15 +12,18 @@ int main()
 
 int C,R,i;
 int n;
-printf("please enter an odd number \n" );
+do {
+    printf("please enter an odd positive number \n" );
 scanf("%d",&n);
+
+}while(n%2==0 || n<1);
 
 C=(n+1)/2;
 R=1;
 
 for (i=1;i<=n*n;i++){
 
-gotoxy(C*3,R*3);
+gotoxy(C*4,R*6);
 printf("%d",i);
 
 if(i%n==0)
