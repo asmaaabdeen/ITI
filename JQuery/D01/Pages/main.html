@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../Styles/Style.css" rel="stylesheet">
+    <script src="../Libraries/JQuery.js"></script>
+
+</head>
+
+<body>
+    <div class="navbar">
+        <a id="about">about</a>
+        <a id="gal">gallery</a>
+        <div class="dropdown">
+            <button class="dropbtn">Services
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+                <a href="#">Item 1</a>
+                <a href="#">Item 2</a>
+                <a href="#">Item 3</a>
+            </div>
+        </div>
+        <a id="Compl">Complain</a>
+
+    </div>
+    <br>
+    <div id="aboutdiv">
+        <p>Story about snow man</p>
+    </div>
+    <div id="galdiv">
+        <img id="left" class="lr" src="../Images/left.png">
+        <img id="img1" src="../Images/1.jpg">
+        <img id="right" class="lr" src="../Images/right.png">
+    </div>
+
+    <div id="compdiv">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="phone">Phone:</label>
+            <input type="number" id="phone" name="phone"><br><br>
+            <p style="color: black;">Complain</p>
+            <textarea id="ta" name="message" rows="10" cols="50">
+
+            </textarea><br>
+            <button id="send" type="button">Send</button>
+        </form>
+
+    </div>
+
+    <div id="data">
+        <p id="com"></p>
+        <p id="na"></p>
+        <p id="ema"></p>
+        <p id="ph"></p>
+        <button style="position: relative;top: 50%;left: 43%;" id="edit">back to edit</button>
+    </div>
+
+    <script src="../Scripts/myScript.js"></script>
+</body>
+
+</html>
